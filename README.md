@@ -1,3 +1,3 @@
--- Simple personal website
+Simple personal website
 
 www.rmiralles.es

@@ -1,5 +1,6 @@
 <?php
-    $url="http://www.rmiralles.es"; 
+    $url1="http://www.rmiralles.es";
+    $url2="http://www.rmiralles.es/email.html"; 
 
 if (isset ($_POST['submit'])) {
     $from = $_POST['name'];
@@ -13,13 +14,16 @@ if (isset ($_POST['submit'])) {
  
     mail($to, $subject, $mensaje, $header);
     print '<script language="JavaScript">'; 
-    print 'alert("mensaje");'; 
+    print 'alert("Mensaje enviado con éxito");'; 
     print '</script>';
-    echo "<SCRIPT>window.location='$url';</SCRIPT>";
+    echo "<SCRIPT>window.location='$url1';</SCRIPT>";
 }
 else
 {
-    echo "Error, el mensaje no ha sido enviado";
+    print '<script language="JavaScript">'; 
+    print 'alert("Error, el mensaje no ha sido enviado");'; 
+    print '</script>';
+    echo "<SCRIPT>window.location='$url2';</SCRIPT>";
 }
  
 ?>

@@ -103,45 +103,6 @@ h2{
 .btn-3db:hover{
     transform:rotateX(35deg);   
 }
-.btn-3dc:after{
-    width:20%;
-    height:100%;
-    left:-20%;
-    top:0;
-    background:#660099;
-    -webkit-transform-origin:100% 0%;
-    -webkit-transform:rotateY(-90deg);
-    -moz-transform-origin:100% 0%;
-    -moz-transform:rotateY(-90deg);
-    -ms-transform-origin:100% 0%;
-    -ms-transform:rotateY(-90deg);
-    transform-origin:100% 0%;
-    transform:rotateY(-90deg);
-}
-.btn-3dc:hover{
-    transform:rotateY(25deg);   
-}
-.btn-3dd:after{
-    width:20%;
-    height:100%;
-    left:100%;
-    top:0;
-    background:#660099;
-    -webkit-transform-origin:0% 0%;
-    -webkit-transform:rotateY(90deg);
-    -moz-transform-origin:0% 0%;
-    -moz-transform:rotateY(90deg);
-    -ms-transform-origin:0% 0%;
-    -ms-transform:rotateY(90deg);
-    transform-origin:0% 0%;
-    transform:rotateY(90deg);
-}
-.btn-3dd:hover{
-    -webkit-transform:rotateY(-15deg);
-    -moz-transform:rotateY(-15deg);
-    -ms-transform:rotateY(-15deg);
-    transform:rotateY(-15deg);
-}
 
 @media screen and (max-width:480px){
     .container{

@@ -12,7 +12,7 @@ body, html{
 }
 body{
     font-family:Arial, sans-serif;
-    background:#CC6666;
+    background-image: url(assets/background.jpg);
 }
 a{
     color:#888;
@@ -72,7 +72,7 @@ h2{
 }
 .btn-3d{
     display:block;
-    background:#9966FF;
+    background:#935965;
     outline:1px solid transparent;
     transform-style:preserve-3d;
 }
@@ -96,7 +96,7 @@ h2{
     height:40%;
     left:0;
     top:100%;
-    background:#660099;
+    background:#561b3b;
     transform-origin: 0% 0%;
     transform:rotateX(-90deg);
 }
@@ -108,5 +108,5 @@ h2{
     .container{
         font-size:1.2em;   
     }
-}
+}743d54
 

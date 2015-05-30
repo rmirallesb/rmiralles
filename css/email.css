@@ -1,5 +1,5 @@
 html{
-  	background:#CC6666;
+	background-image: url(background.jpg);
   	background-size: cover;
   	height:100%;
 }
@@ -117,7 +117,7 @@ input:focus, textarea:focus {
 	width: 100%;
 	border: #fbfbfb solid 4px;
 	cursor:pointer;
-	background-color: #9966FF;
+	background-color: #935965;
 	color:white;
 	font-size:24px;
 	padding-top:22px;
